@@ -38,7 +38,7 @@ class VzUrlVariable
      * 
      * @return array The component parts
      */
-    public function parse($url = false)
+    public function parse($url = false) :array
     {
         if (empty($url)) {
             return false;

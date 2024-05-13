@@ -32,7 +32,7 @@ class ValidationController extends Controller
      *
      * @return array
      */
-    public function actionCheck()
+    public function actionCheck(): array
     {
         $this->requirePostRequest();
         $this->requireAcceptsJson();

@@ -62,7 +62,7 @@ class VzUrlField extends Url
      *
      * @return string|null
      */
-    public function getSettingsHtml()
+    public function getSettingsHtml() :string|null
     {
         // Render the settings template
         return Craft::$app->getView()->renderTemplate(

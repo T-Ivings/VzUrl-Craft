@@ -2,7 +2,7 @@
   "name": "elivz/vzurl",
   "description": "A URL fieldtype with validation.",
   "type": "craft-plugin",
-  "version": "2.1.2",
+  "version": "3.0.0",
   "keywords": [
     "craft",
     "cms",
@@ -22,7 +22,7 @@
     }
   ],
   "require": {
-    "craftcms/cms": "^3.0.0-RC1"
+    "craftcms/cms": "^4.0.0"
   },
   "autoload": {
     "psr-4": {

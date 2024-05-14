@@ -53,7 +53,7 @@ class VzUrl extends Plugin
     /**
      * @var string
      */
-    public $schemaVersion = '2.1.0';
+    public string $schemaVersion = '2.2.0';
 
     // Public Methods
     // =========================================================================
@@ -62,7 +62,7 @@ class VzUrl extends Plugin
      * Set our $plugin static property to this class so that it can be accessed via
      * VzUrl::$plugin
      */
-    public function init()
+    public function init(): void
     {
         parent::init();
         self::$plugin = $this;
